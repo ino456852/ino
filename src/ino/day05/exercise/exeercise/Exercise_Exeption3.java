@@ -6,14 +6,14 @@ import java.util.Scanner;
 public class Exercise_Exeption3 {
 
 	public static void main(String[] args) {
-		int [] intArrs = new int[5];
-		try {
-			
-		} catch ArithmeticException e) {
-			System.out.println("배열");
-		}
-		
-		System.out.println(intArrs[5]);
+//		int [] intArrs = new int[5];
+//		try {
+//			
+//		} catch ArithmeticException e) {
+//			System.out.println("배열");
+//		}
+//		
+//		System.out.println(intArrs[5]);
 	}
 
 }
