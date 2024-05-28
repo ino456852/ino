@@ -1,4 +1,4 @@
-package org.benq.day05.exception.exercise;
+package ino.day05.exception.exercise;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

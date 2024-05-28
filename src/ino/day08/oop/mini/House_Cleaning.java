@@ -1,6 +1,6 @@
-package ino.day05.exception.exercise;
+package ino.day08.oop.mini;
 
-public class Exercise_Exception5 {
+public class House_Cleaning {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

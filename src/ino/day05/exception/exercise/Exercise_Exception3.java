@@ -1,4 +1,4 @@
-package org.benq.day05.exception.exercise;
+package ino.day05.exception.exercise;
 
 public class Exercise_Exception3 {
 
