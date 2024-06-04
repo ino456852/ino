@@ -38,32 +38,30 @@ public class StudentApp {
 		ViewStudent view = new ViewStudent();
 		끝 :
 		while(true) {
-			int input = view.printMenu();
+			int input = view.printMenu();	// view 메소드에서 값을 받아 input에 저장
 			Student [] students = null;
 			switch(input) {
-			inputInfo();
 			case 1 :
-				inputInfo();
-				
+				students = view.displayInput();
+				msg.inputInfo(students);
 				break;
 			case 2 :
-				printInfo();
+				students = msg.printInfo();
+				view.displayInfo(students);
 				break;
 			case 3 :
-				displayMsg("프로그램을 종료합니다.");
+				view.displayMsg("프로그램을 종료합니다.");
 				break 끝;
 			default :
-				displayMsg("1 ~ 3 사이의 수를 입력해주세요.");
+				view.displayMsg("1 ~ 3 사이의 수를 입력해주세요.");
 			}
 		}
 	}
-	
-	
-	
+}	
 
 	
 	
 	
 	
 
-}
+
